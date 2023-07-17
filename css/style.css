@@ -73,3 +73,18 @@ section {
   border: 1px dashed black;
 }
 
+.image {
+  background-color: #255EE9;
+  border: 1px dashed black;
+  width: 60%;
+  max-width: 600px;
+  height: 300px;
+}
+
+.text {
+  background-color: palevioletred;
+  border: 1px dashed black;
+  width: 40%;
+  max-width: 400px;
+  height: 300px;
+}
