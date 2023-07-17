@@ -3,3 +3,33 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+header {
+  background-color: #255EE9;
+  padding: 10px 100px;
+}
+
+.container-header {
+  background-color: yellow;
+  width: 90%;
+  max-width: 1200px;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+}
+
+.logo,
+.login {
+  width: 20%;
+}
+
+.link {
+  width: 60%;
+  /* per il momento text-align, poi va cambiato */
+  text-align: center;
+}
+
+.login {
+  display: flex;
+  justify-content: flex-end;
+}
