@@ -4,15 +4,17 @@
   box-sizing: border-box;
 }
 
+
+/* header */
 header {
   background-color: #255EE9;
-  padding: 10px 100px;
+  padding: 10px;
 }
 
 .container-header {
   background-color: yellow;
   width: 90%;
-  max-width: 1200px;
+  max-width: 1000px;
   margin: auto;
   display: flex;
   flex-direction: row;
@@ -21,15 +23,53 @@ header {
 .logo,
 .login {
   width: 20%;
+  border: 1px dashed black;
+  padding: 5px;
 }
 
 .link {
   width: 60%;
+  border: 1px dashed black;
   /* per il momento text-align, poi va cambiato */
   text-align: center;
+  padding: 5px;
 }
 
 .login {
   display: flex;
   justify-content: flex-end;
 }
+/* /header */
+
+
+/* main */
+section {
+  padding: 40px;
+}
+
+.section-blue {
+  background-color: darkblue;
+  display: flex;
+  justify-content: center;
+}
+
+.section-white {
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.section-grey {
+  background-color: lightgray;
+}
+
+
+.section-blue .box {
+  background-color: magenta;
+  width: 80%;
+  max-width: 800px;
+  height: 300px;
+  border: 1px dashed black;
+}
+
