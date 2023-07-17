@@ -62,6 +62,9 @@ section {
 
 .section-grey {
   background-color: lightgray;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
 }
 
 
